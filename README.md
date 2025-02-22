@@ -6,7 +6,7 @@ This project is a NestJS application built while following the [Net Ninja NestJS
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Node.js](https://nodejs.org/) (v20 or higher)
 - [pnpm](https://pnpm.io/) package manager
 
 ### Installation
