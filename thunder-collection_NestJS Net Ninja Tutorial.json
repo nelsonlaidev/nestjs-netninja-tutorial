@@ -1,0 +1,81 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "NestJS Net Ninja Tutorial",
+    "collectionId": "6d2bec13-7254-4794-a771-2895cc292b90",
+    "dateExported": "2025-02-22T08:44:24.612Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "614345e9-2ad0-4d0c-86fa-34d0ba63ccb1",
+            "colId": "6d2bec13-7254-4794-a771-2895cc292b90",
+            "containerId": "",
+            "name": "GET /ninjas",
+            "url": "localhost:3000/ninjas",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-02-22T08:41:52.231Z",
+            "modified": "2025-02-22T08:41:57.801Z",
+            "headers": []
+        },
+        {
+            "_id": "4eaafb4d-f3cf-4642-bc41-93a54f318321",
+            "colId": "6d2bec13-7254-4794-a771-2895cc292b90",
+            "containerId": "",
+            "name": "GET /ninjas/:id",
+            "url": "localhost:3000/ninjas/1",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2025-02-22T08:42:59.291Z",
+            "modified": "2025-02-22T08:43:05.376Z",
+            "headers": []
+        },
+        {
+            "_id": "e0bc9a53-6b97-452a-81b2-1f6de4ce1b65",
+            "colId": "6d2bec13-7254-4794-a771-2895cc292b90",
+            "containerId": "",
+            "name": "POST /ninjas",
+            "url": "localhost:3000/ninjas",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-02-22T08:42:16.222Z",
+            "modified": "2025-02-22T08:42:32.491Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"ninja3\",\n  \"weapon\": \"stars\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "6d47291b-f13d-48f8-a335-8b46f6aaa828",
+            "colId": "6d2bec13-7254-4794-a771-2895cc292b90",
+            "containerId": "",
+            "name": "PUT /ninjas/:id",
+            "url": "localhost:3000/ninjas/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2025-02-22T08:43:18.333Z",
+            "modified": "2025-02-22T08:43:51.354Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"ninja3.1\",\n  \"weapon\": \"sword\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ebb13273-d1f9-410c-bd32-21443d80a262",
+            "colId": "6d2bec13-7254-4794-a771-2895cc292b90",
+            "containerId": "",
+            "name": "DELETE /ninjas/:id",
+            "url": "localhost:3000/ninjas/3",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2025-02-22T08:44:04.788Z",
+            "modified": "2025-02-22T08:44:12.161Z",
+            "headers": []
+        }
+    ],
+    "ref": "85dmHzqHSvfVSxuOE8Lr6vUV8Va81oBviOA7TcQYGz9o9yh2jh1U5uIt7s2XH_ziS6Ezd2e3WKhrgLL6ld1DiA"
+}
